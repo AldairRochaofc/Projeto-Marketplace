@@ -1,0 +1,10 @@
+{
+    "pName": "`${Item.name}`",
+    "pPrice": "`${Item.price}`",
+    "pStars": "`${Item.stars}`",
+    "pShopVal": "`${Item.validation}`",
+    "pQuant": "`${Item.Quantity}`",
+    "pId": "`${}`",
+    "SellerId": "User.SellerId",
+    "PicturesArray":
+}
