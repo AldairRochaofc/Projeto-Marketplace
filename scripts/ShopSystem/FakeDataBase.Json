@@ -1,0 +1,73 @@
+[
+    {
+        "StandardItem": {
+            "pName": "StandardItem",
+            "pPrice": "price",
+            "pStars": "stars",
+            "pShopVal": "Validation",
+            "pQuant": "Quantity",
+            "pId": "1",
+            "PicturesArray": {
+                "Show": "sellingPicture",
+                "1Next": "MorePicture",
+                "2Next": "MorePicture",
+                "3Next": "MorePicture",
+                "4Next": "MorePicture",
+                "5Next": "MorePicture"
+            },
+            "materials": [
+                "wood",
+                "leaf",
+                "fresh hair"
+            ]
+        }
+    },
+    {
+        "StandardItem": {
+            "pName": "StandardItem2",
+            "pPrice": "price",
+            "pStars": "stars",
+            "pShopVal": "Validation",
+            "pQuant": "Quantity",
+            "pId": "2",
+            "PicturesArray": {
+                "Show": "sellingPicture",
+                "1Next": "MorePicture",
+                "2Next": "MorePicture",
+                "3Next": "MorePicture",
+                "4Next": "MorePicture",
+                "5Next": "MorePicture"
+            },
+            "materials": [
+                "wood",
+                "leaf",
+                "fresh hair"
+            ]
+        }
+    },
+    {
+        "StandardItem": {
+            "pName": "StandardItem3",
+            "pPrice": "price",
+            "pStars": "stars",
+            "pShopVal": "Validation",
+            "pQuant": "Quantity",
+            "pId": "3",
+            "PicturesArray": {
+                "Show": "sellingPicture",
+                "1Next": "MorePicture",
+                "2Next": "MorePicture",
+                "3Next": "MorePicture",
+                "4Next": "MorePicture",
+                "5Next": "MorePicture"
+            },
+            "BuildInfo": {
+                "materials": [
+                    "wood",
+                    "leaf",
+                    "fresh hair"
+                ]
+            }
+        }
+    }
+]
