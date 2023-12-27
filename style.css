@@ -3,3 +3,89 @@ body{
     overflow-x: hidden;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.instrument {
+    flex: 1;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.text-instrument {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-main,
+.content-main-2 {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.content-main img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.p-disable {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.text-green {
+    color: #008000;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+/* Estilos para celular */
+@media (max-width: 576px) {
+    .instrument {
+        flex: 100%;
+    }
+}
+
+/* Estilos para tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+    .instrument {
+        flex: 50%;
+    }
+}
+
+/* Estilos para computador */
+@media (min-width: 769px) and (max-width: 992px) {
+    .instrument {
+        flex: 33.33%;
+    }
+}
+
+/* Estilos para televisão e PC grandes */
+@media (min-width: 993px) {
+    .instrument {
+        flex: 16.6667%;
+    }
+}
+
