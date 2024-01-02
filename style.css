@@ -124,3 +124,97 @@ i{
         /* man ta responsivo ja parabens */
     }
 }
+      
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header{
+            display: flex;
+            width: 1110px;
+            height: 200px;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+            margin:5% 0;
+            padding: 20px;
+        }
+        .box2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .ver{
+           display: flex;
+           border-radius: 15px;
+           border: 2px solid black;
+         
+        }
+        .ver img{      
+            padding: 2px;
+            border-radius: 15px;
+            width: 100%;
+           background-position: center;  
+           background-size: cover;
+            height: 300px;          
+        }
+        .ler{
+            margin-bottom: 20px;
+            order: 2;
+        }
+
+        p{
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .div-tittle{
+            display: inline-block;
+        }
+
+        .titulo{
+
+        }
+        
+        @media screen and (min-width: 1066px){
+            .box1{
+                display: flex;
+                order: 2;
+            }
+
+            .box2{
+                display: flex;
+                order: 1;
+            }
+
+            .ver{
+                width: 600px;
+                order: 1;
+            }
+
+            .ler{
+                width: 700px;
+                order: 1;
+            }
+        }
+        @media screen and (max-width: 1066px){
+            .box1{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .box2{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    
